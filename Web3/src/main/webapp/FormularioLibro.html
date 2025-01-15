@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>FORMULARIO LIBROS</title>
+</head>
+
+<img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExenpxMzJzMzg5cDhrcnNyaDJhenk2enQ2eTdhZHowNTQzaml5ajVoYyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/uDj0Fa3q8ipBS/giphy.gif">
+<body>
+<form action="destinolibro.jsp">
+<p>
+<label for="titulo" > Titulo: </label>
+<input type="text" name="titulo" id="titulo"/>
+</p>
+<p>
+<label for="autor" > Autor: </label>
+<input type="text" name="autor" id="autor"/>
+</p>
+<p>
+<label for="ISBN" > ISBN: </label>
+<input type="text" name="ISBN" id="ISBN"/>
+</p>
+
+<p>
+Selecciona Lenguaje:
+<select name = "lenguaje">
+<option> Castellano </option>
+<option> Inglés </option>
+<option> Francés </option>
+<option> Alemán </option>
+<option> Chino </option>
+</select>
+</p>
+<p>
+Selecciona Genero:
+<select name = "genero" multiple="multiple">
+<option> Ficcion </option>
+<option> Historia </option>
+<option> Filosofia </option>
+<option> Terror </option>
+</select>
+</p>
+<p>
+Selecciona Numero de Páginas:
+<input type = "radio" name = "numpag" value = "1"/> Hasta 100 pág.
+<input type = "radio" name = "numpag" value = "2"/> Hasta 300 pág.
+<input type = "radio" name = "numpag" value = "3"/> Más de 300 pág.
+</p>
+<p>
+<input type= "checkbox" name="disponible" value ="true"/> Disponible
+
+</p>
+<p> 
+<input type="submit" value="enviar" />
+</p>
+</form>
+</body>
+</html>

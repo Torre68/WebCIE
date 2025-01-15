@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>FORMULARIO PERSONAS</title>
+</head>
+<img src="https://i.giphy.com/media/v1.Y2lkPTc5MGI3NjExZTBpYWRjYXo2cDNob3ltYzI5ZGZ1Y2cxbXBuYjBpcGMxcmEyM3ppcCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/FOfe8iGdAiODS/giphy.gif">
+<body>
+<form action="destinopersona.jsp">
+<p>
+<label for="nombre" > Nombre: </label>
+<input type="text" name="nombre" id="nombre"/>
+</p>
+<p>
+<label for="apellidos" > Apellidos: </label>
+<input type="text" name="apellidos" id="apellidos"/>
+</p>
+<p>
+<label for="fecha" > Fecha de Nacimiento: </label>
+<input type="date" name="Fecha de Nacimiento" id="Fecha de Nacimiento"/>
+</p>
+<p>
+Selecciona Lenguaje:
+<select name = "lenguaje">
+<option> Java </option>
+<option> Php </option>
+<option> C# </option>
+</select>
+</p>
+<p>
+Selecciona Dispositivos:
+<select name = "dispositivos" multiple="multiple">
+<option> PC </option>
+<option> Tablet </option>
+<option> Android </option>
+<option>  </option>
+</select>
+</p>
+<p>
+Selecciona Nivel:
+<input type = "radio" name = "nivel" value = "1"/> Principiante
+<input type = "radio" name = "nivel" value = "2"/> Intermedio
+<input type = "radio" name = "nivel" value = "3"/> Experto
+</p>
+<p>
+<input type= "checkbox" name="nuevo" value ="true"/> Nuevo
+
+</p>
+<p> 
+<input type="submit" value="enviar" />
+</p>
+</form>
+</body>
+</html>

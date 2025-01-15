@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+
+/* selector de etiqueta*/
+
+body {
+	
+	font-family: Arial,sans-serif;
+	 color: #333; 
+}
+table {
+	
+	border:0.1em solid black;
+	
+}
+table caption {
+	
+	background-color: #80bfff;
+	padding:0.8em;
+	 
+}
+thead {
+	
+	 background-color: #e9e9e9; 
+	
+}
+tbody{
+	
+	background-color: #e6f2ff;
+}
+/* selector de contexto tr dentro de tbody*/
+tbody tr {
+	
+	text-align: right;
+	padding:0.5em;
+}
+/* selector de grupo se aplica a todos los tbody y todos los tr */
+tbody, tr {
+	
+	text-align: right;
+}

@@ -1,0 +1,28 @@
+@charset "UTF-8";
+table {
+    background: rgb(255, 0, 0);
+    font-family: Tahoma;
+    font-size: 1.5em;
+    font-style: italic;
+    color: rgb(255, 255, 255);
+    font-variant: small-caps; /* Cambié 'smallcaps' a 'small-caps' */
+    padding: 3px;
+}
+
+h1 {
+    font-family: sans-serif;
+    color: rgb(0, 0, 255);
+}
+
+table caption {
+    color: rgb(64, 0, 64);
+    font-size: 2.0em;
+    font-family: Helvetica; /* Corregido el nombre de la fuente */
+}
+
+table, tr, td, th {
+    border: 3px solid rgb(0, 0, 255); /* Agregado punto y coma al final */
+}
+
+
+
