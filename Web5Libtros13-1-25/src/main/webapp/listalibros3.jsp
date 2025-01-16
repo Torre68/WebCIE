@@ -13,7 +13,7 @@
 </head>
 
 <%
-LibroRepository repo = new LibroRepositoryMemoria();
+LibroRepository repo = new LibroRepositoryJDBC();
 String tipobusqueda = request.getParameter("tipobusqueda");
 String textobusqueda = request.getParameter("textobusqueda");
 List<Libro> lista = null;

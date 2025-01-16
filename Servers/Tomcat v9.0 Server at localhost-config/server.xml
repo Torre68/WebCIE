@@ -162,7 +162,7 @@
              Note: The pattern used is equivalent to using pattern="common" -->
         <Valve className="org.apache.catalina.valves.AccessLogValve" directory="logs" pattern="%h %l %u %t &quot;%r&quot; %s %b" prefix="localhost_access_log" suffix=".txt"/>
 
-      <Context docBase="web1" path="/web1" reloadable="true" source="org.eclipse.jst.jee.server:web1"/><Context docBase="Web2" path="/Web2" reloadable="true" source="org.eclipse.jst.jee.server:Web2"/><Context docBase="Web3" path="/Web3" reloadable="true" source="org.eclipse.jst.jee.server:Web3"/><Context docBase="Web4Suma" path="/Web4Suma" reloadable="true" source="org.eclipse.jst.jee.server:Web4Suma"/><Context docBase="Web5Libtros13-1-25" path="/Web5Libtros13-1-25" reloadable="true" source="org.eclipse.jst.jee.server:Web5Libtros13-1-25"/></Host>
+      <Context docBase="web1" path="/web1" reloadable="true" source="org.eclipse.jst.jee.server:web1"/><Context docBase="Web2" path="/Web2" reloadable="true" source="org.eclipse.jst.jee.server:Web2"/><Context docBase="Web3" path="/Web3" reloadable="true" source="org.eclipse.jst.jee.server:Web3"/><Context docBase="Web4Suma" path="/Web4Suma" reloadable="true" source="org.eclipse.jst.jee.server:Web4Suma"/><Context docBase="Web5Libtros13-1-25" path="/Web5Libtros13-1-25" reloadable="true" source="org.eclipse.jst.jee.server:Web5Libtros13-1-25"/><Context docBase="webbiblioteca" path="/webbiblioteca" reloadable="true" source="org.eclipse.jst.jee.server:webbiblioteca"/></Host>
     </Engine>
   </Service>
 </Server>
