@@ -1,0 +1,4 @@
+/home/cie/eclipse-workspaceLINUX/Ordenador/src/main/java/es/cie/ordenador/controlador/OrdenadorServlet.java
+/home/cie/eclipse-workspaceLINUX/Ordenador/src/main/java/es/cie/ordenador/negocio/Ordenador.java
+/home/cie/eclipse-workspaceLINUX/Ordenador/src/main/java/es/cie/ordenador/repositories/OrdenadorRepository.java
+/home/cie/eclipse-workspaceLINUX/Ordenador/src/main/java/es/cie/ordenador/repositories/jdbc/OrdenadorRepositoryJDBC.java
